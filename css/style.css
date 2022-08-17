@@ -95,6 +95,7 @@ color: var(--secondary-text-dark-color)
 }
 
 .hero-title {
+  font-family: var(--secondary-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
@@ -143,6 +144,7 @@ color: var(--secondary-text-dark-color)
 }
 
 .list-advantages .title{
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -201,6 +203,7 @@ color: var(--secondary-text-dark-color)
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -210,6 +213,11 @@ color: var(--secondary-text-dark-color)
 
  .list-btn .btn-portfolio:hover,
  .list-btn .btn-portfolio:focus {
+  background-color:  var(--accent-color);
+  color: var(--primary-text-light-color);
+ }
+
+ .list-btn .active {
   background-color:  var(--accent-color);
   color: var(--primary-text-light-color);
  }
@@ -272,11 +280,6 @@ color: var(--secondary-text-dark-color)
   text-decoration: none;
 
   color: var(--primary-text-light-color)
-  }
-
-  .footer .link-adres:hover,
-  .footer .link-adres:focus {
-    color: var(--accent-color);
   }
 
 .footer .link {
