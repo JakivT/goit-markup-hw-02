@@ -33,6 +33,7 @@ body {
 
 /* LOGO */
 .logo{
+font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -95,7 +96,7 @@ color: var(--secondary-text-dark-color)
 }
 
 .hero-title {
-  font-family: var(--secondary-font);
+  font-family: var(--primary-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
@@ -254,6 +255,7 @@ color: var(--secondary-text-dark-color)
 
 
 .footer .logo {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
